@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>995936339738-pcv1u02e83sg0ce7viif3h482j5mksbs.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.995936339738-pcv1u02e83sg0ce7viif3h482j5mksbs</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBJ9itnxnPeQMT2IScUSX8RZuEdGXEZ_GU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>995936339738</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.idoqtor.apps.patient</string>
+	<key>PROJECT_ID</key>
+	<string>idoqtor</string>
+	<key>STORAGE_BUCKET</key>
+	<string>idoqtor.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:995936339738:ios:2ebb89ec2ceafecd</string>
+	<key>DATABASE_URL</key>
+	<string>https://idoqtor.firebaseio.com</string>
+</dict>
+</plist>

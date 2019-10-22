@@ -1,0 +1,206 @@
+import {Dimensions} from 'react-native';
+import EStyleSheet from 'react-native-extended-stylesheet';
+import fonts from "../../config/fonts";
+import colors from "../../config/colors";
+
+const {width, height} = Dimensions.get('window');
+
+const styles = EStyleSheet.create({
+    container:{
+        width:'99%',
+        alignSelf:'center',
+        borderWidth:0,
+        display:'flex',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        flexDirection:'row',
+        position:'absolute',
+        zIndex: 120,
+        top:'auto',
+        bottom:50
+    },
+    orderBtn:{
+        display:'flex',
+        justifyContent:'center',
+        alignItems:'center',
+        flexDirection:'column',
+        width:'78%',
+        height: fonts.size(40),
+        borderWidth: 0,
+        borderColor: colors.primary,
+        backgroundColor: colors.red,
+        borderRadius:5,
+        shadowOffset: { width: 2, height: 3 },
+        shadowOpacity: 0.9,
+        shadowRadius: 2,
+        shadowColor: colors.sliver
+    },
+    orderText:{
+        display:'flex',
+        width:'99%',
+        textAlign:'center',
+        fontSize: fonts.getFontSize(20),
+        fontWeight: fonts.getFontWeight('bold'),
+        fontFamily: fonts.getFont(),
+        color: colors.white,
+        borderWidth: 0,
+    },
+    calendarBtn:{
+        display:'flex',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        flexDirection:'column',
+        width:'22%',
+        maxWidth: fonts.size(40),
+        height: fonts.size(40),
+        backgroundColor: colors.white,
+        borderWidth:1,
+        borderColor:colors.sliver,
+        borderRadius:5,
+        shadowOffset: { width: 2, height: 3 },
+        shadowOpacity: 0.9,
+        shadowRadius: 2,
+        shadowColor: colors.sliver,
+        position:'relative',
+    },
+    calendarIcon:{
+        width: fonts.size(22),
+        height: fonts.size(22),
+        resizeMode: 'contain',
+    },
+    datePickerContainer:{
+        position:'absolute',
+        top:-(height-100),
+        bottom:0,
+        left:-2,
+        width:width,
+        height:height,
+        backgroundColor:colors.lightRGBA,
+        display:'flex',
+        justifyContent:'flex-end',
+        alignItems:'center',
+        flexDirection:'column',
+    },
+    datePickerView:{
+        width:width,
+        height:380,
+        backgroundColor:colors.white,
+        display:'flex',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        zIndex: 101,
+        borderTopWidth:1,
+        borderTopColor:colors.primary,
+        borderWidth:0.5,
+        borderColor:colors.dark,
+        shadowOffset: { width: 4, height: 5 },
+        shadowOpacity: 0.5,
+        shadowRadius: 10,
+    },
+    datePickerTitle:{
+        display:'flex',
+        width:'99%',
+        textAlign:'center',
+        height:50,
+        fontSize: fonts.getFontSize(22),
+        fontWeight: fonts.getFontWeight('bold'),
+        fontFamily: fonts.getFont(),
+        color: colors.dark,
+        borderWidth: 0,
+    },
+    datePickerBtn:{
+        display:'flex',
+        width:'80%',
+        textAlign:'center',
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems:'center',
+        alignSelf:'center',
+        borderRadius:5,
+        height: fonts.size(40),
+        backgroundColor: colors.primary,
+        marginBottom: 30
+
+    },
+    datePickerBtnText:{
+        display:'flex',
+        fontSize: fonts.getFontSize(20),
+        fontWeight: fonts.getFontWeight('bold'),
+        fontFamily: fonts.getFont(),
+        color: colors.white,
+        borderWidth: 0,
+    },
+    datePickerBox:{
+        width:'90%',
+        display:'flex',
+        alignSelf:'center',
+        borderWidth: 0,
+    },
+
+    locationConfirmBtn:{
+        width:'70%',
+    },
+    locationSkipBtn:{
+        maxWidth:'30%',
+    },
+    locationSkipBtnText:{
+        color:colors.primary,
+        fontSize: fonts.getFontSize(20),
+        fontWeight: fonts.getFontWeight('regular'),
+        fontFamily: fonts.getFont("light"),
+    },
+    submitOrder: {
+        width:'90%',
+    },
+    findingView:{
+        width:'90%',
+        height:80,
+        backgroundColor:colors.white,
+        borderWidth:0.5,
+        borderColor:colors.sliver,
+        borderRadius:5,
+        shadowOffset: { width: 5, height: 8 },
+        shadowOpacity: 1,
+        shadowRadius: 5,
+        shadowColor: colors.sliver,
+        marginBottom: 0,
+        display:'flex',
+        justifyContent:'space-evenly',
+        alignItems:'center',
+        alignSelf:'center',
+        flexDirection:'row',
+        // position:'absolute',
+        bottom:0
+    },
+    findingLoader:{
+        maxWidth:'15%',
+        width:50,
+        height:50,
+        alignSelf:'center',
+        display:'flex',
+        borderWidth:0
+    },
+    findingText:{
+        maxWidth:'80%',
+        height:50,
+        alignSelf:'center',
+        display:'flex',
+        borderWidth:0,
+        color:colors.gray,
+        fontSize: fonts.getFontSize(20),
+        lineHeight: fonts.getFontSize(45),
+        fontWeight: fonts.getFontWeight('regular'),
+        fontFamily: fonts.getFont(),
+    },
+    inStatusView:{
+        position:'absolute',
+        borderWidth:0,
+        width:'100%',
+        height:'100%',
+        left:0,
+        zIndex:99999999999
+    }
+
+});
+
+export default styles;

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "995936339738",
+    "firebase_url": "https://idoqtor.firebaseio.com",
+    "project_id": "idoqtor",
+    "storage_bucket": "idoqtor.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995936339738:android:2ebb89ec2ceafecd",
+        "android_client_info": {
+          "package_name": "com.idoqtor.apps.patient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995936339738-d8efu7e3elu8vi1tkmksttkd7ipl59nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZBWVgVtfvitDhUz2ELqtFgAMmRl8699o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995936339738-d8efu7e3elu8vi1tkmksttkd7ipl59nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

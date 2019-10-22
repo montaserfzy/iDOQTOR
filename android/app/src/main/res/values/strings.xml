@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">iDOQTOR</string>
+    <string name="facebook_app_id">446456819242222</string>
+    <string name="fb_login_protocol_scheme">fb446456819242222</string>
+</resources>

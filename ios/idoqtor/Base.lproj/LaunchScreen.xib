@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view tag="-1" contentMode="scaleToFill" id="iN0-l3-epB" colorLabel="IBBuiltInLabel-Red">
+            <rect key="frame" x="0.0" y="0.0" width="784" height="1070"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="appImages" translatesAutoresizingMaskIntoConstraints="NO" id="wst-qZ-Wfm">
+                    <rect key="frame" x="105" y="230" width="574" height="374"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" usesAttributedText="YES" allowsEditingTextAttributes="YES" adjustsFontForContentSizeCategory="YES" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="AO7-lF-0m1">
+                    <rect key="frame" x="0.0" y="611" width="784" height="67"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <attributedString key="attributedText">
+                        <fragment content="ANYTIME ANYWHERE ">
+                            <attributes>
+                                <color key="NSColor" red="0.13577810643986921" green="0.13816201923604737" blue="0.14927030456852797" alpha="0.2908283390410959" colorSpace="custom" customColorSpace="sRGB"/>
+                                <font key="NSFont" size="14" name="ProximaNova-Bold"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="allCharacters" enablesReturnKeyAutomatically="YES"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="0.99597054719924927" green="0.99614065885543823" blue="0.99595993757247925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="649.27536231884062" y="669.29347826086962"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="appImages" width="512" height="512"/>
+    </resources>
+</document>
